@@ -34,18 +34,3 @@ n3 = Node(value=3, left=None, right=None)
 n2 = Node(value=2, left=n1, right=n3)
         
 print(contains(n2,3))
-
-
- # if root.left != None and root.right != None:
-        #     left_subtree = contains(root.left,value)
-        #     right_subtree = contains(root.right, value)
-        # elif root.left != None or root.right != None:  
-        #     if root.left != None:
-        #         left_subtree = contains(root.left,value)
-        #     else:
-        #         right_subtree = contains(root.right, value)
-        # else:
-        #     return False    
-        
-        # if left_subtree or right_subtree :
-        #     return True
